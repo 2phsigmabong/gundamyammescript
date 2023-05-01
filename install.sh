@@ -375,7 +375,7 @@ sport = $ws_ovpn
 dport = $ovpn
 basic
 
-echo "<font color=\"blue\">NEWLEGENDS (LANTIN)</font>" > $loc/message
+echo "<font color=\"blue\">DarkGundamEmmay (E I E E)</font>" > $loc/message
 
 web=$loc/web
 mkdir $web 2> /dev/null
@@ -390,7 +390,7 @@ route-method exe
 mute-replay-warnings
 http-proxy $MYIP 8888
 setenv CLIENT_CERT 0
-setenv FRIENDLY_NAME "NEWLEGENDS"
+setenv FRIENDLY_NAME "DarkGundamEmmay"
 verb 3
 auth-user-pass
 cipher none
@@ -583,7 +583,7 @@ cat << msg
      - accdel
 | Usage: xdcb [option]
 
-Credits: Dexter Cellona Banawon (X-DCB)
+Credits: Emmanuel Cajera Bongabong  (E I E E)
 msg
 exit 0
 menu
@@ -628,7 +628,7 @@ cat << info | tee ~/socksproxylog.txt
 | Log output: /root/socksproxylog.txt |
 | =================================== |
 | Use "xdcb" for the menu             |
-| Credits: Dexter Cellona Banawon     |
+| Credits: Emmanuel Cajera Bongabong     |
  =====================================
  
 info
